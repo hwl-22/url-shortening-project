@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Shortly URL shortening API</title>
+
+		<!-- css links  -->
+		<link rel="stylesheet" href="general.css" />
+		<link rel="stylesheet" href="header.css" />
+		<link rel="stylesheet" href="hero.css" />
+		<link rel="stylesheet" href="footer.css" />
+
+		<!-- jquery link  -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<header class="container">
+			<nav class="nav">
+				<div class="navbar__logo fw-b">
+					<img src="./images/logo.svg" alt="logo" />
+				</div>
+				<div class="navbar__items">
+					<ul>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Resources</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Log In</a></li>
+						<li><a class="fw-b" id="sign-up" href="#">Sign Up</a></li>
+					</ul>
+				</div>
+				<div class="mobile-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+
+			<section class="header__section">
+				<div class="header__section-one">
+					<h1 class="fw-b">More than just shorter links</h1>
+					<p>
+						Build your brand’s recognition and get detailed insights on
+						how your links are performing.
+					</p>
+					<button class="btn">Get Started</button>
+				</div>
+				<div class="header__section-two">
+					<img src="./images/illustration-working.svg" alt="work-icon" />
+				</div>
+			</section>
+		</header>
+
+		<section class="input-section container">
+			<div class="input-form">
+				<input type="text" placeholder="Shorten a link here..." />
+				<span>Please add a link</span>
+			</div>
+			<div><button class="fw-b btn" type="button">Shorten It!</button></div>
+		</section>
+
+		<section class="links-url-section"></section>
+
+		<section class="statistic-section container">
+			<div class="stat-description">
+				<h3>Advanced Statistics</h3>
+				<p>
+					Track how your links are performing across the web with our
+					advanced statistics dashboard.
+				</p>
+			</div>
+			<div class="stat-card-container">
+				<div class="stat-card">
+					<h4 class="fw-b">Brand Recognition</h4>
+					<p>
+						Boost your brand recognition with each click. Generic links
+						don’t mean a thing. Branded links help instil confidence in
+						your content.
+					</p>
+					<div class="stat-card-img">
+						<img
+							src="./images/icon-brand-recognition.svg"
+							alt="icon-brand-recognition"
+						/>
+					</div>
+				</div>
+
+				<div class="line-div"></div>
+
+				<div class="stat-card">
+					<h4 class="fw-b">Detailed Records</h4>
+					<p>
+						Gain insights into who is clicking your links. Knowing when
+						and where people engage with your content helps inform better
+						decisions.
+					</p>
+					<div class="stat-card-img">
+						<img
+							src="./images/icon-detailed-records.svg"
+							alt="icon-brand-recognition"
+						/>
+					</div>
+				</div>
+
+				<div class="line-div"></div>
+
+				<div class="stat-card">
+					<h4 class="fw-b">Fully Customizable</h4>
+					<p>
+						Improve brand awareness and content discoverability through
+						customizable links, supercharging audience engagement.
+					</p>
+					<div class="stat-card-img">
+						<img
+							src="./images/icon-fully-customizable.svg"
+							alt="icon-brand-recognition"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="boost-section">
+			<h3>Boost your links today</h3>
+			<div><button class="btn fw-b">Get Started</button></div>
+		</section>
+
+		<footer class="footer container">
+			<div class="footer__logo">Shortly</div>
+			<ul>
+				<li class="subtitle fw-b"><a href="#">Features</a></li>
+				<li><a href="#">Link Shortening</a></li>
+				<li><a href="#">Branded Links</a></li>
+				<li><a href="#">Analytics</a></li>
+			</ul>
+			<ul>
+				<li class="subtitle fw-b"><a href="#"> Resources</a></li>
+				<li><a href="#"> Blog </a></li>
+				<li><a href="#">Developers</a></li>
+				<li><a href="#">Support</a></li>
+			</ul>
+			<ul>
+				<li class="subtitle fw-b"><a href="#">Company</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Our Team </a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#"> Contact</a></li>
+			</ul>
+			<div class="social-icons-container">
+				<img src="./images/icon-facebook.svg" alt="facebook-icon" />
+				<img src="./images/icon-twitter.svg" alt="twitter-icon" />
+				<img src="./images/icon-pinterest.svg" alt="icon-pinterest" />
+				<img src="./images/icon-instagram.svg" alt="icon-instagram" />
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
